@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(238, 238, 238);
+  }
+  
+  #img-div {
+    border: 3px solid rgb(171, 43, 35);
+    background-color: rgb(171, 43, 35);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #image {
+    width: 80%;
+    border: 1px solid white;
+    margin-top: 1em;
+    max-width: 1280px;
+  }
+  
+  #img-caption {
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 4em;
+    color: rgb(171, 43, 35);
+  /*   text-shadow: 2px 2px 4px #555; */
+    border-bottom: 3px solid rgb(171, 43, 35);
+  /*   box-shadow: 0 2px 10px 0 #555; */
+  }
+  
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-flex-item {
+    width: 70%;
+  }
+  
+  #tribute-links {
+    display: flex;
+  
+  }
+  
+  #tribute-link, 
+  #tribute-link-2 {
+    background-color: rgb(171, 43, 35);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.2em .5em;
+    transition-duration: 0.4s;
+  }
+  
+  #tribute-link:hover, 
+  #tribute-link-2:hover {
+    background-color: rgba(171, 43, 35, .8);
+    box-shadow: 0 2px 10px 0 #555;
+  }
+  
+  footer {
+    color: white;
+    background-color: rgb(171, 43, 35);
+    padding: 2em;
+    margin-top: 1em; 
+    text-align: right;
+  }
